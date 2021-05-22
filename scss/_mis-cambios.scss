@@ -1,0 +1,37 @@
+.ezalign {
+    text-align: center;
+}
+
+a {
+  color: #804F69;
+}
+a:hover {
+  color: #E2B9C6;
+}
+
+.ez-section-heading {
+    padding: 0 3rem 0 3rem;
+      font-size: 1.2rem;
+      //font-weight: 800;
+    }
+
+.ez_top {
+    padding-top: 3rem;
+}
+
+.btn-ez {
+    color: #E8E1D5;
+    background-color: #804F69;
+    border-color: #804F69;
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: darken(#804F69, 10%);
+      border-color: darken(#804F69, 10%);
+    }
+  }
+  .ez-text-primary {
+    color: #d26ea3 !important;
+  }
+
+  
