@@ -9,9 +9,6 @@
   <meta name="author" content="Fitness, exercise, ejercicio, entrenamiento, nutrición, gym, gimnasio, deporte, pesas, rutinas">
 
   <title>The Fitness Therapy</title>
-  
-   <!-- Cooki consent -->
-  <script src="https://cmp.osano.com/169lZ1Sc5q7sM9xtb/e734ac86-e8ef-4044-99a4-77f39ea1ce46/osano.js"></script>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -22,7 +19,9 @@
 
   <!-- Custom styles for this template -->
   <link href="css/business-casual.min.css" rel="stylesheet">
-  
+
+  <!-- Cooki consent -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 
 </head>
 
@@ -150,6 +149,29 @@
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="vendor/jquery/ez.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+          window.cookieconsent.initialise({
+            "palette": {
+              "popup": {
+                "background": "#000"
+              },
+              "button": {
+                "background": "#f1d600"
+              }
+            },
+            "theme": "classic",
+            "position": "top",
+            "type": "opt-in",
+            "content": {
+              "message": "Utilizamos cookies para ofrecerle la mejor experiencia en nuestra web.",
+              "dismiss": "Declinar",
+              "allow": "Permitir cookies",
+              "link": "Conocer más",
+              "href": "https://thefitnesstherapy.link/cookies.html"
+            }
+          });
+    </script>
 
 </body>
 
